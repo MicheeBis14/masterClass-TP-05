@@ -1,0 +1,656 @@
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+html,
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.block{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/******************************************** ------ HEADER -----  ******************************************/
+/******************************************** ------ HEADER -----  ******************************************/
+.block .header{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color:#0f2243;
+}
+.block .header .head{
+    position:relative;
+    height: 100%;
+    width: calc(100% - 25%);
+    background-color: #0f2243;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header .head .headContent{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.header .head .headContent.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.head .headContent.logo img {
+    object-fit: cover;
+    width: 30%;
+}
+.head .headContent.logo h1{
+    font-size: 1rem;
+    
+}
+.head .headContent.nav{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    overflow: hidden;
+    width: auto;
+}
+.head .headContent.nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.head .headContent.nav li {
+    margin: 0 12px;
+    list-style: none;
+}
+.head .headContent.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.head .headContent.nav a:hover {
+    text-decoration: underline;
+}
+
+
+/******************************************** ------ HEADER -----  ******************************************/
+/******************************************** ------ HEADER -----  ******************************************/
+
+/******************************************** ------ SECTION  -----  ****************************************/
+
+
+
+.block .section{
+    position:relative;
+    height: 45%;
+    width: 100%;
+}
+.block .section .sect{
+    position:relative;
+    height: 100%;
+    width: calc(100% - 25%);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/******************************************** ------ SECTION 1-----  ******************************************/
+/******************************************** ------ SECTION 1-----  ******************************************/
+
+.block .section.sectContent1{
+    height: 25%;
+}
+.block .section .sect.sect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+} 
+.section .sect.sect1  h1{
+    font-size: 1.7rem;
+}
+
+.section .sect.sect1  a  {
+    color: forestgreen;
+    background-color: #de2589;
+    padding: 5px 10px;
+    margin: 15px auto;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: .7rem;
+}
+.section .sect.sect1 p{
+    margin: 2px 0px;
+}
+
+
+/******************************************** ------ SECTION 1-----  ******************************************/
+/******************************************** ------ SECTION 1-----  ******************************************/
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/******************************************** ------ SECTION 2-----  ******************************************/
+/******************************************** ------ SECTION 2-----  ******************************************/
+.section.sectContent2{
+    background-color: #ddd;
+    height: auto;
+
+}
+.block .section .sect.sect2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section.sectContent2 .sect.sect2 .sect2Contents{
+    position: relative;
+    height: 80%;
+    width: 50%;
+    overflow: hidden;
+}
+.sect.sect2 .sect2Contents.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.sect.sect2 .sect2Contents.description h1{
+    margin: 5px 0px;
+} 
+.sect.sect2 .sect2Contents.secondLogo{
+    
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.sect.sect2 .sect2Contents img{
+    object-fit: cover;
+    width: 70%;
+    height: auto;
+
+}
+
+/******************************************** ------ SECTION 2-----  ******************************************/
+/******************************************** ------ SECTION 2-----  ******************************************/
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/******************************************** ------ SECTION 3-----  ******************************************/
+/******************************************** ------ SECTION 3-----  ******************************************/
+ .block .section.about{
+    height: auto;
+}
+
+.block .section.about .sect.sect3 > h1{
+    margin: 10px 0px 15px;
+} 
+
+.block .section.about .sect.sect3 > h2{
+    margin: 10px 0px;
+
+}
+.block .section.about .sect.sect3 > ul{
+    margin: 10px 0px 40px;
+}
+.section.about .sect.sect3 .paraMiddle{
+    margin: 15px auto;
+}
+.sect.sect3  li {
+    list-style:inside;
+    list-style-type: none;
+}
+
+
+
+/******************************************** ------ SECTION 3-----  ******************************************/
+/******************************************** ------ SECTION 3-----  ******************************************/
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+/******************************************** ------ SECTION  -----  ***********************************************/
+
+/******************************************** ------ PAGE CONTACTER -----  ****************************************/
+/******************************************** ------ PAGE CONTACTER -----  ****************************************/
+.block .contacter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:80%;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.block .contacter h1{
+    margin: 5px 0px 0px;
+}
+
+.block .contacter p{
+    margin: 15px auto;
+
+}
+
+.block .contacter .form{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #020202;
+    padding: 0px;
+}
+.contacter .form .datas{
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.form .datas .putInfo{
+    position: relative;
+    height: 100%;
+    width: 48%;
+}
+.datas .putInfo label {
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
+.datas .putInfo input{
+    height: 50px;
+    width: 100%;    
+    border-radius: 5px;
+    margin: 5px 0px 15px;
+    background-color: #ccc;
+    border: 1px solid #fff;
+}
+.datas .putInfo select{
+    height: 50px;
+    width: 100%;    
+    border-radius: 5px;
+    margin: 5px 0px 15px;
+    background-color: #ccc;
+    border: 1px solid #fff;
+
+}
+.datas.forMssg{
+    /* background-color: red; */
+    height: 30% !important;
+    margin: -10px 0px 0px ;
+}
+.datas.forMssg #msgVisit{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #ccc;
+    /* margin: 5px 0px 0px; */
+}
+.datas.btnSubmit{
+    /* position: relative; */
+    height: 10% !important;
+    /* width: 70% !important; */
+    /* background-color: #5673a4; */
+}
+.datas.btnSubmit button{
+    background-color: #de2589;
+    width: 30%;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+/**********************************************  FOOTER ABONNEMENT  ********************************************** */
+.block .desc{
+    position: rel;
+    width: 100%;
+    background-color: #ccc;
+
+}
+.block .desc .descript{
+    position: relative;
+    height: 45% !important;
+    width: 75%;
+    /* border: 1px solid rgb(10, 161, 68); */
+    margin: 0px auto -25px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.block .descript .descript-Elements{
+    height: auto;
+    width: 40%;
+    /* border: 1px solid #fff; */
+}
+ .descript .descript-Elements.ElmntLeft h2 {
+    color: #000;
+    font-size: 1.8rem;
+    margin: 0px 0px 20px;
+}
+
+.descript .descript-Elements.ElmntLeft p {
+    margin: 25px 0;
+}
+
+.descript .descript-Elements.ElmntRight{
+    /* background-color: green; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.descript .descript-Elements.ElmntRight .form-ElmntRight{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.descript-Elements.ElmntRight .form-ElmntRight .formsElmnt{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction:column;
+    /* background-color: red; */
+    height: 80%;
+    width: 90%;
+    overflow: hidden;
+
+}
+.form-ElmntRight .formsElmnt input{
+    height: 50px;
+    width: 310px;
+    padding: 10px 0px 10px 20px;
+    margin: 11px 0px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border: 1px solid #000;
+
+}
+.form-ElmntRight .formsElmnt button{
+    padding: 8px 125px;
+    border-radius: 10px;
+    background-color: #de2589;
+    color: #fff;
+    border: 1px solid #000;
+    border: 1px solid #ccc;
+
+
+
+}
+/**********************************************  FOOTER ABONNEMENT  ********************************************** */
+
+
+/******************************************** ------ PAGE CONTACTER -----  ****************************************/
+/******************************************** ------ PAGE CONTACTER -----  ****************************************/
+
+/********************************************** ------ PAGE COurs -----  ****************************************/
+/********************************************** ------ PAGE COurs -----  ****************************************/
+.block .bloc-Cours{
+    position: relative;
+    width: 75%;
+    height: 130%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+.block .bloc-Cours h1{
+    /* color: #fff; */
+    margin: 10px 0px 20px;
+}
+.bloc-Cours .all-Cours{
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid red; */
+    /* background-color: #b86902; */
+    overflow: hidden;
+
+}
+.block .bloc-Cours .bloc-Cours-Items{
+    position: relative;
+    width: 100%;
+    height: 50% !important;
+    /* border: 2px solid rgb(255, 255, 255); */
+    overflow: hidden;
+    /* background-color: #454747; */
+ 
+
+}
+.block .bloc-Cours-Items .items-Cours-two{
+    height: 15%;
+    width: 100%;
+    /* border: 3px solid rgb(130, 118, 11); */
+    /* background-color: yellow; */
+    display: flex;
+    overflow: hidden;
+    /* justify-content: space-between; */
+    /* color: #fff; */
+
+}
+.bloc-Cours-Items .items-Cours-two .Cours-Group{
+    /* position: relative; */
+    height: 100%;
+    width: 32%;
+    /* background-color: #de2589; */
+    margin: 0px auto;
+    /* border: 1px soid red; */
+}
+.items-Cours-two .Cours-Group p {
+    /* margin: 5px auto; */
+    font-weight: bold;
+
+}
+.items-Cours-two .Cours-Group span {
+    font-weight: 300;
+}
+
+
+.bloc-Cours-Items .items-Cours-two.details-Courses{
+    height: 85% !important;
+    /* background-color: red; */
+       display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+.items-Cours-two.details-Courses .cours{
+    width: 32%;
+    height: 100%;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+/********************************************** ------ PAGE COurs -----  ****************************************/
+/********************************************** ------ PAGE COurs -----  ****************************************/
+
+
+/******************************************** ------ PAGE COMMUNAUTE -----  ************************************/
+/******************************************** ------ PAGE COMMUNAUTE -----  ************************************/
+
+.block .page-communaut{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    border: 2px solid green;
+    background-color: #ccc;
+}
+
+.block .page-communaut .centralCommunauty{
+    width: 75%;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.page-communaut .centralCommunauty .contents-communauty{
+    height: 100%;
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+
+}
+.centralCommunauty .contents-communauty h1{
+    margin: 0px 0px 15px;
+    /* color: #de2589; */
+}
+.centralCommunauty .contents-communauty .logoPy{
+    position: relative;
+    height: 70%;
+    width:40%;
+    /* border: 3px solid yellow; */
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contents-communauty .logoPy img{
+    object-fit: cover;
+    max-height: 65%;
+    width: 100%;
+    margin: -10px 0px 0px;
+
+}
+.centralCommunauty .contents-communauty.Right{
+    align-items: end !important;
+
+    /* justify-content: end; */
+}
+.logoPy .imgLetedcode{
+    position: absolute;
+    bottom:0%;
+    right: 3%;
+    height: 20%;
+    width: 20%;
+    /* border: 2px solid green; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoPy .imgLetedcode img {
+    /* object-fit: cover; */
+    /* height: 100%; */
+    width: 100%;
+
+}
+
+.block .section-communaute{
+    height: 60%;
+    width: 75%;
+    border: 1px solid red;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: column;
+}
+.block .section-communaute h1{
+    /* color:red; */
+    margin: 10px 0px;
+}
+.block .section-communaute .membres-letecode{
+    position: relative;
+    height: 45%;
+    width: 100%;
+    /* border: 1px solid maroon; */
+    overflow: hidden;
+}
+.membres-letecode .infos-membres{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid rgb(11, 209, 212); */
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.membres-letecode .infos-membres.names{
+    /* background-color: #0f2243; */
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.membres-letecode .infos-membres .photosMembres{
+    height: 130px;
+    width: 130px;
+    /* border:1px solid rgb(81, 81, 5); */
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.infos-membres.names .namesMembres{
+    height: 100%;
+    width: 19%;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.infos-membres.names .namesMembres p{
+    font-weight: bold;
+}  
+
+
+/******************************************** ------ PAGE COMMUNAUTE -----  ************************************/
+/******************************************** ------ PAGE COMMUNAUTE -----  ************************************/
+
+
+
+
+
+/******************************************** ------ FOOTER  -----  ****************************************/
+
+
+.block  .footer{
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    background-color: #0f2243;
+    color: #fff;
+    /* margin: 20px 0px 0px; */
+
+}
+.block .footer .foot{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer .foot h3{
+    font-weight: 200;
+}
+
+/******************************************** ------ FOOTER  -----  ****************************************/
+
+/* @Media query */
+
